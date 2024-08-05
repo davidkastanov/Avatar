@@ -7,7 +7,7 @@
     --btn-color: #26c6ea;
     --border-color: #26c7ea;
     --color: #0a3853;
-    --desk-color: #141414;
+    --language-color: #141414;
     --text-c0lor: #000000;
     --hover-color:#94CFFF;
 }
@@ -17,7 +17,7 @@
 text-align: center;
 font-family: "Inter";
 font-size: 20px;
-font-style: normal;
+font-style: 1.2;
 font-weight: 300;
 line-height: normal;
 }
@@ -25,6 +25,99 @@ line-height: normal;
     color: var(--btn-color);
 text-align: justify;
 font-family: "HeadlandOne";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header-link {
+    color: var(--title-color);
+
+text-align: center;
+font-family: "Hammersmith One";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-text {
+    color: var(--title-color);
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-btn {
+    color: var(--border-color);
+text-align: center;
+font-family: "HeadlandOne";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.quotes-title {
+    color: var(--color);
+text-align: justify;
+font-family: "Inter";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.quotes-subtitle {
+    color: var(--text-c0lor);
+
+text-align: center;
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.trailer-btn {
+    color: var(--border-color);
+
+text-align: justify;
+font-family: "HeadlandOne";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.language-title {
+    color: var(--language-color);
+text-align: justify;
+font-family: "HeadlandOne";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.list-text {
+    color: var(--language-color);
+text-align: justify;
+font-family: "HeadlandOne";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 100% */
+}
+.footer-text {
+    color: var(--title-color);
+text-align: justify;
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-link {
+    color: var(--title-color);
+
+text-align: justify;
+font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
