@@ -1,6 +1,4 @@
-.body {
-    background-color: var(--desk-color);
-}
+
 :root {
     --main-color: #94cfff;
     --title-color: #ffffff;
@@ -10,16 +8,54 @@
     --language-color: #141414;
     --text-c0lor: #000000;
     --hover-color:#94CFFF;
+    --bcg-color:#0B0E66;
+
+}
+.header {
+    background-image: url(../img/background-header-footer.jpg);
+    background-size: cover;
+    border-bottom: 3px solid var(--title-color);
+    width: 1500px;
+}
+.header-box {
+    display: flex;
+}
+.logo-link {
+    margin-top: 39px;
+    margin-bottom: 39px;
+    margin-right: 168px;
+    margin-left: 204px;
+}
+.nav-list {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap: 39px;
 }
 .nav-link {
     color: var(--title-color);
-
 text-align: center;
 font-family: "Inter";
 font-size: 20px;
 font-style: 1.2;
 font-weight: 300;
 line-height: normal;
+}
+.nav-link:hover {
+    color: var(--hover-color);
+text-align: center;
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.choose {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 48px;
+    gap: 5px;
 }
 .header-btn {
     color: var(--btn-color);
@@ -29,6 +65,12 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-left: 212px;
+margin-right: 49px;
+background-color: var(--bcg-color);
+color: var(--border-color);
+border: 3px solid var(--btn-color);
+border-radius: 35px 0px 35px 0px;
 }
 .header-link {
     color: var(--title-color);
@@ -40,13 +82,44 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.hero {
+    background-image: url(../img/bcg-hero.jpg);
+    height: 740px;
+    background-size: cover;
+    width: 1500px;
+}
 .hero-text {
     color: var(--title-color);
 font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.2;
+width: 340px;
+flex-shrink: 0;
+padding-left: 204px;
+
+}
+.hero-text:nth-child(1) {
+    padding-top: 180px;
+    width: 298px;
+    padding-left: 204px;
+    
+}
+.br {
+    padding-left: 204px;
+    color: var(--title-color);
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.2;
+width: 340px;
+flex-shrink: 0;
+padding-left: 204px;
+}
+.hero-img {
+    padding-left: 257px;
 }
 .hero-btn {
     color: var(--border-color);
@@ -56,6 +129,21 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+background-color: var(--bcg-color);
+border:var(--border-color) 3px solid;
+border-radius: 45px 0px 45px 0;
+width: 260px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 31px;
+margin-left: 204px;
+margin-top: 42px;
+}
+.hero-list {
+    margin-left: 1100px;
+    padding-bottom: 299px;
+    flex-direction: column;
 }
 .quotes-title {
     color: var(--color);
