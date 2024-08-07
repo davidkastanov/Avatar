@@ -156,23 +156,54 @@ line-height: normal;
 }
 .quotes-subtitle {
     color: var(--text-c0lor);
-
-text-align: center;
+    margin-left: 645px;
+    margin-right: 645px;
 font-family: "Inter";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.quotes-img {
+    margin-left: 520px;
+    margin-right: 520px;
+}
+.trailer {
+    background-image: url(../img/bcg-trailer.jpg);
+    height: 741px;
+}
 .trailer-btn {
     color: var(--border-color);
-
+    background-color: var(--bcg-color);
 text-align: justify;
 font-family: "HeadlandOne";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+border: 3px solid var(--border-color);
+border-radius: 45px 0px 45px 0px;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-right: 20px;
+padding-left: 19px;
+margin-top: 330px;
+margin-bottom: 331px;
+margin-right: 590px;
+margin-left: 590px;
+}
+.language {
+    background-image: url(../img/bcg-languahe.jpg);
+}
+.list-item {
+width: 320px;
+height: 240px;
+background-image: linear-gradient(rgba(255, 255, 255, 0.70)
+);
+background-repeat: no-repeat;
+flex-wrap: wrap;
+display: flex;
+
 }
 .language-title {
     color: var(--language-color);
@@ -191,6 +222,26 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 100% */
+}
+.footer-box {
+    display: flex;
+}
+.footer {
+    background-image: url(../img/background-header-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-logo {
+    margin-top: 77px;
+    margin-bottom: 76px;
+    margin-left: 204px;
+}
+.palka {
+    width: 2px;
+height: 153px;
+color: var(--title-color);
+margin-top: 35px;
+margin-bottom: 35px;
 }
 .footer-text {
     color: var(--title-color);
