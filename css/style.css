@@ -110,7 +110,6 @@ flex-shrink: 0;
 .hero-text:nth-child(1) {
     padding-top: 180px;
     width: 298px;
-    padding-left: 204px;
     
 }
 .br {
@@ -122,11 +121,8 @@ font-weight: 400;
 line-height: 1.2;
 width: 340px;
 flex-shrink: 0;
-padding-left: 204px;
 }
-.hero-img {
-    padding-left: 257px;
-}
+
 .hero-btn {
     color: var(--border-color);
 text-align: center;
@@ -143,11 +139,9 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 30px;
 padding-right: 31px;
-margin-left: 204px;
 margin-top: 42px;
 }
 .hero-list {
-    margin-left: 1100px;
     padding-bottom: 299px;
     flex-direction: column;
 }
