@@ -25,6 +25,8 @@
     background-size: cover;
     border-bottom: 3px solid var(--title-color);
     width: 1500px;
+    padding-top: auto;
+    padding-right: 110px;
 }
 .header-box {
     display: flex;
@@ -95,6 +97,7 @@ line-height: normal;
     height: 740px;
     background-size: cover;
     width: 1500px;
+    padding-right: 110px;
 }
 .hero-text {
     color: var(--title-color);
@@ -142,7 +145,6 @@ padding-right: 31px;
 margin-top: 42px;
 }
 .hero-list {
-    padding-bottom: 299px;
     flex-direction: column;
 }
 .quotes-title {
@@ -171,6 +173,8 @@ line-height: normal;
 .trailer {
     background-image: url(../img/bcg-trailer.jpg);
     height: 741px;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 .trailer-btn {
     color: var(--border-color);
@@ -185,12 +189,13 @@ border: 3px solid var(--border-color);
 border-radius: 45px 0px 45px 0px;
 padding-top: 25px;
 padding-bottom: 25px;
-padding-right: 20px;
+padding-right: 19px;
 padding-left: 19px;
 margin-top: 330px;
 margin-bottom: 331px;
 margin-right: 590px;
 margin-left: 590px;
+width: 260px;
 }
 .language {
     background-image: url(../img/bcg-languahe.jpg);
