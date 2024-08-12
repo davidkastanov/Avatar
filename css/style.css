@@ -147,6 +147,9 @@ margin-top: 42px;
 .hero-list {
     flex-direction: column;
 }
+.quotes {
+    padding-right: 110px;
+}
 .quotes-title {
     color: var(--color);
 text-align: justify;
@@ -199,12 +202,12 @@ width: 260px;
 }
 .language {
     background-image: url(../img/bcg-languahe.jpg);
+    background-size: cover;
 }
 .list-item {
 width: 320px;
 height: 240px;
-background-image: linear-gradient(rgba(255, 255, 255, 0.70)
-);
+background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70));
 background-repeat: no-repeat;
 flex-wrap: wrap;
 display: flex;
