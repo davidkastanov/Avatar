@@ -204,16 +204,29 @@ padding-right: 19px;
 padding-left: 19px;
 }
 .language {
+    padding-top: 58px;
+    padding-bottom: 57px;
     background-image: url(../img/bcg-languahe.jpg);
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+.language-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    column-gap: 24px;
 }
 .list-item {
 width: 320px;
-height: 240px;
-background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70));
 background-repeat: no-repeat;
 flex-wrap: wrap;
 display: flex;
+padding-top: 36px;
+padding-bottom: 36px;
+background-image: linear-gradient(rgba(255, 255, 255, 0.70),rgba(255, 255, 255, 0.70));
+text-align: center;
+justify-content: center;
 
 }
 .language-title {
@@ -224,6 +237,9 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 58px;
+margin-bottom: 45px;
+text-align: center;
 }
 .list-text {
     color: var(--language-color);
@@ -233,6 +249,21 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 100% */
+margin-bottom: 40px;
+}
+.list-img {
+    width: 152px;
+    height: 40px;
+}
+.list-translated {
+    color: var(--text-c0lor);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 100% */
+margin-top: 40px;
 }
 .footer-box {
     display: flex;
