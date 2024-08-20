@@ -45,7 +45,7 @@ font-family: "Inter";
 font-size: 20px;
 font-style: 1.2;
 font-weight: 300;
-line-height: normal;
+line-height: 1.2;
 }
 .nav-link:hover {
     color: var(--hover-color);
@@ -54,7 +54,7 @@ font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
+line-height: 1.2;
 }
 
 .header-btn {
@@ -124,7 +124,7 @@ font-family: "HeadlandOne";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
 background-color: var(--bcg-color);
 border:var(--border-color) 3px solid;
 border-radius: 45px 0px 45px 0;
@@ -172,7 +172,7 @@ font-family: "Inter";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
 text-align: center;
 margin-bottom: 8px;
 }
@@ -218,15 +218,16 @@ padding-left: 19px;
     column-gap: 24px;
 }
 .list-item {
-width: 320px;
 background-repeat: no-repeat;
-flex-wrap: wrap;
 display: flex;
+flex-direction: column;
+gap: 40px;
+align-items: center;
 padding-top: 36px;
 padding-bottom: 36px;
 background-image: linear-gradient(rgba(255, 255, 255, 0.70),rgba(255, 255, 255, 0.70));
-text-align: center;
-justify-content: center;
+flex-basis: calc((100% - 48px) / 3);
+
 
 }
 .language-title {
@@ -243,13 +244,11 @@ text-align: center;
 }
 .list-text {
     color: var(--language-color);
-text-align: justify;
 font-family: "HeadlandOne";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 100% */
-margin-bottom: 40px;
 }
 .list-img {
     width: 152px;
@@ -257,43 +256,40 @@ margin-bottom: 40px;
 }
 .list-translated {
     color: var(--text-c0lor);
-text-align: justify;
 font-family: HeadlandOne;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 100% */
-margin-top: 40px;
 }
 .footer-box {
     display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .footer {
-    background-image: url(../img/header-footer-bcg.jpg);
+    background-image: linear-gradient( rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/header-footer-bcg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 .footer-logo {
-    margin-top: 77px;
-    margin-bottom: 76px;
-    margin-left: 204px;
+    width: 183px;
+    height: 70px;  
 }
+.footer-box
 .palka {
     width: 2px;
 height: 153px;
-color: var(--title-color);
-margin-top: 35px;
-margin-bottom: 35px;
+background-color: var(--title-color);
 }
-.footer-text {
-    color: var(--title-color);
-text-align: justify;
-font-family: "Inter";
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
+
 .footer-link {
     color: var(--title-color);
 
@@ -302,5 +298,16 @@ font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.2;
+}
+.footer-text {
+    color: var(--title-color);
+text-align: center;
+margin-left: 131px;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.2;
+
 }
