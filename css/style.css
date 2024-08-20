@@ -21,7 +21,7 @@
 
 }
 .header {
-    background-image: linear-gradient( rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/background-header-footer.jpg);
+    background-image: linear-gradient( rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/header-footer-bcg.jpg);
     background-size: cover;
     border-bottom: 3px solid var(--title-color);
     padding-top: 39px;
@@ -181,7 +181,7 @@ margin-bottom: 8px;
     margin-right: auto;
 }
 .trailer {
-    background-image: url(../img/bcg-trailer.jpg);
+    background-image: url(../img/trailer-bcg.jpg);
     background-size: cover;
     padding-bottom: 331px;
     padding-top: 330px;
@@ -206,7 +206,7 @@ padding-left: 19px;
 .language {
     padding-top: 58px;
     padding-bottom: 57px;
-    background-image: url(../img/bcg-languahe.jpg);
+    background-image: url(../img/language-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -269,7 +269,7 @@ margin-top: 40px;
     display: flex;
 }
 .footer {
-    background-image: url(../img/background-header-footer.jpg);
+    background-image: url(../img/header-footer-bcg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
