@@ -17,8 +17,6 @@
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px red solid;
-
 }
 .header {
     background-image: linear-gradient( rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/header-footer-bcg.jpg);
@@ -195,7 +193,7 @@ font-family: "HeadlandOne";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
 border: 3px solid var(--border-color);
 border-radius: 45px 0px 45px 0px;
 padding-top: 25px;
@@ -237,7 +235,7 @@ font-family: "HeadlandOne";
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
 margin-top: 58px;
 margin-bottom: 45px;
 text-align: center;
